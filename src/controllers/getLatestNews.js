@@ -22,7 +22,7 @@ module.exports = {
                infosSelect.url.push(info.url);
            });
         }catch(err){
-            res.send(error)
+            res.send(err)
         }
         const arr = []
         arr.push(infosSelect)
