@@ -24,7 +24,9 @@ module.exports = {
         }catch(err){
             res.send(error)
         }
-        res.send(infosSelect)
+        const arr = []
+        arr.push(infosSelect)
+        res.send(arr)
     },
 
 }
